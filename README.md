@@ -18,15 +18,15 @@ End Program by sending a Newline with nc
 
 
 Use Proxy chains to make clients Socks 5 Compliant  
-[ProxyList]
-# add proxy here ...
-# meanwile
-# defaults set to "tor"
+\[ProxyList\]
+\# add proxy here ...
+\# meanwile
+\# defaults set to "tor"
 socks5 172.16.9.10 1080
 
 mainframe@ubuntu:~$ proxychains curl -k http://172.16.0.54:8000  
 ProxyChains-3.1 (http://proxychains.sf.net)  
-|S-chain|-<>-172.16.9.10:1080-<><>-172.16.0.54:8000-<><>-OK  
+\|S-chain\|-<>-172.16.9.10:1080-<><>-172.16.0.54:8000-<><>-OK  
 
 Two Python programs have been included to test TCP and UDP  
 
